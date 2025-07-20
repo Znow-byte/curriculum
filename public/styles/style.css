@@ -6,7 +6,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .content {
     width: 50%;
@@ -524,25 +527,6 @@ body {
     .content {
 
         .skills-content {
-
-            /* ul {
-                display: flex;
-                flex-wrap: wrap;
-                list-style: none;
-                padding: 0;
-
-                .skills-list {
-                    display: flex;
-                    flex-direction: column;
-                    margin-right: 20px;
-                    align-items: center;
-
-                    li {
-                        margin-bottom: 10px;
-                    }
-                    
-                }
-            } */
             
             .frontend-skills {
                 text-align: center;
