@@ -6,6 +6,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+html, body {
+    overflow-x: auto;
+}
+
 .content {
     width: 50%;
     height: 100vh;
