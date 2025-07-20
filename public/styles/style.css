@@ -6,10 +6,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-html, body {
-    overflow-x: auto;
-}
-
 .content {
     width: 50%;
     height: 100vh;
@@ -524,9 +520,7 @@ html, body {
 @media (max-width: 650px) {
     
     .content {
-        width: 100%;
-        height: auto;
-        
+
         .skills-content {
             
             .frontend-skills {
